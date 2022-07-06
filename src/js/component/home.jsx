@@ -34,7 +34,7 @@ useEffect(() => {
         setAmpm(am)
     }, 1000);
     return () => clearInterval(interval);
-  }, []);
+  });
 
 	return (
 		
